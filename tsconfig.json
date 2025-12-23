@@ -1,0 +1,25 @@
+{
+    // Visit https://aka.ms/tsconfig to read more about this file
+    "compilerOptions": {
+        /* Base options */
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "target": "es2022",
+        "verbatimModuleSyntax": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "moduleDetection": "force",
+
+        /* Strictness */
+        "strict": true,
+        "noUncheckedIndexedAccess": true,
+
+        /* Transpiling */
+        "moduleResolution": "Bundler",
+        "module": "ESNext",
+        "noEmit": true,
+
+        "lib": ["es2022", "DOM"],
+        "jsx": "react-jsx"
+    }
+}
