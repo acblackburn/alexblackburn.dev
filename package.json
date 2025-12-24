@@ -1,8 +1,8 @@
 {
-    "name": "personal-site",
+    "name": "alexblackburn.dev",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "dev": "rspack dev",
         "build": "rspack build",
